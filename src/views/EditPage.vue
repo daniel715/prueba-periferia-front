@@ -17,9 +17,9 @@
         </v-text-field>
       </v-col>
       <v-col cols="6" class="px-auto mt-6">
-        <v-btn color="green" dark elevation="0" @click="save" class="ml-15"> Guardar </v-btn>
-        <v-btn color="green" dark elevation="0" @click="goToedit" class="ml-15"> Regresar </v-btn>
-        <v-btn color="red" dark elevation="0" @click="goToAuth" class="ml-15"> Salir </v-btn>
+        <v-btn color="green" dark elevation="2" @click="save" class="ml-15"> Guardar </v-btn>
+        <v-btn color="green" dark elevation="2" @click="goToedit" class="ml-15"> Regresar </v-btn>
+        <v-btn color="red" dark elevation="2" @click="goToAuth" class="ml-15"> Salir </v-btn>
       </v-col>
     </v-row>
     <v-alert v-if="error" :value="true" type="error" class="multi-line">{{ error }}</v-alert>

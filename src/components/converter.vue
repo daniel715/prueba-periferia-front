@@ -19,7 +19,7 @@
         </v-text-field>
       </v-col>
       <v-col cols="3" class="px-auto mt-6">
-        <v-btn @click="convert" class="ml-15">
+        <v-btn elevation="2" @click="convert" class="ml-15">
           <v-icon> mdi-transfer-right </v-icon>
         </v-btn>
       </v-col>
@@ -29,8 +29,8 @@
     </v-row>
     <v-alert v-if="error" :value="true" type="error" class="multi-line">{{ error }}</v-alert>
     <v-card-actions>
-      <v-btn @click="goToedit" color="green" dark elevation="0"> Editar Tasas </v-btn>
-      <v-btn @click="goToAuth" color="red" dark elevation="0"> Salir </v-btn>
+      <v-btn @click="goToedit" color="green" dark elevation="2"> Editar Tasas </v-btn>
+      <v-btn @click="goToAuth" color="red" dark elevation="2"> Salir </v-btn>
     </v-card-actions>
   </v-card>
 </template>
