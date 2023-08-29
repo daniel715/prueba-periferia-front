@@ -1,3 +1,6 @@
-# vue2-vuetify-vite-starter-hv6nvk
+Pagina Front para calculador de moneda
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vue2-vuetify-vite-starter-hv6nvk)
+Para iniciar la app abrir terminal en la raiz del proyecto y ejecutar
+npm install
+npm run dev
+ir http://localhost:3000/
