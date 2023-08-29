@@ -9,7 +9,7 @@
               type="password"
               autofocus
               @keydown.enter="entrar"
-              label="Ingrese correo"
+              label="Ingrese contrasena"
             >
             </v-text-field>
             <v-row class="ma-0" align-items="center" justify="center">
@@ -23,7 +23,6 @@
 </template>
 <script>
 import { defineComponent } from '@vue/composition-api'
-import axiosInstance from '@/plugins/axios'
 export default defineComponent({
   name: 'App',
   data: () => ({
@@ -37,8 +36,10 @@ export default defineComponent({
     },
   },
   methods: {
-    async entrar(){
-        let response = await axiosInstance.post('localhost:8081/api/v1/auth/register')
+    entrar(){
+        if(this.password = "123"){
+            this.$router.push({ path: 'admin' })
+        }
     }
   },
   created() {
