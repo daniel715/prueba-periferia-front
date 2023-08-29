@@ -5,3 +5,5 @@ npm install
 despues de instalar dependencias ejecutar
 npm run dev
 ir http://localhost:3000/
+
+La contrasena es 123
